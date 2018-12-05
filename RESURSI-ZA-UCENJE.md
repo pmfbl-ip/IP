@@ -6,8 +6,6 @@
 
 ## Књиге и упутства за рачунарке мреже и Интернет  
 
-* Марић Ф.: [УВИТ - скрипта (стране 1-35)](/predavanja/literatura/Maric F. - Skripta UVIT.pdf){:target="_blank"}
-
 * Bonaventure: [Computer Networking : Principles, Protocols and Practice](https://www.saylor.org/site/wp-content/uploads/2012/02/Computer-Networking-Principles-Bonaventure-1-30-31-OTC1.pdf){:target="_blank"}  
 
 * [Internet Technologies Tutorial](https://www.tutorialspoint.com/internet_technologies/index.htm){:target="_blank"} - TutorialsPoint
@@ -16,13 +14,7 @@
 
 ## Књиге и упутства за HTML i CSS
 
-* Марић Ф.: [УВИТ - скрипта (стране 36-103)](/predavanja/literatura/Maric F. - Skripta UVIT.pdf){:target="_blank"}
-
-* Марић Ф.: [Основни елементи веба - скрипта](/predavanja/literatura/Maric F. - Skripta veb.pdf){:target="_blank"}
-
 * Pilgrim M.: [Dive into HTML5](http://diveinto.html5doctor.com){:target="_blank"}
-
-* Хаџи-Пурић Ј.: [Основни елементи HTML-a](http://poincare.matf.bg.ac.rs/~jelenagr/op/htmlskola.htm){:target="_blank"}
 
 * [HTML Tutorial](https://www.w3schools.com/html/){:target="_blank"} - W3Schools
 
