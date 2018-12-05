@@ -12,6 +12,10 @@
 
 **[Примери - PHP](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-php){:target="_blank"}**
 
+**[Примери - Јава и мреже](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-java-net){:target="_blank"}**
+
+**[Примери - Јава, базе и веб](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-java-db-web){:target="_blank"}**
+
 ---
 
 **[Информације](info/README.md){:target="_blank"}**
