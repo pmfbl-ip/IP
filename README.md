@@ -16,7 +16,7 @@
 
 * **[Предавања](/predavanja/README.md)**
 
-* **[Вежбе](/vezbe/README.md)**
+* **[Вjежбе](/vezbe/README.md)**
 
 ## Колоквијуми и испити
 
