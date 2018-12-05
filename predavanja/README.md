@@ -4,13 +4,13 @@
 
 Овде су постављена информације о **предавањима** из предмета **Интернет програмирање**.  
 
-**[Презентације](zadaci/README.md){:target="_blank"}**
+**[Презентације](https://github.com/PmfBlIP/IP/tree/master/predavanja/prezentacije){:target="_blank"}**
 
-**[Примери - HTML веб фoормулари](resenja/README.md){:target="_blank"}**
+**[Примери - HTML веб фoрмулари](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-html-formulari){:target="_blank"}**
 
-**[Примери - MySQL](resenja/README.md){:target="_blank"}**
+**[Примери - MySQL](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-MySql){:target="_blank"}**
 
-**[Примери - PHP](resenja/README.md){:target="_blank"}**
+**[Примери - PHP](https://github.com/PmfBlIP/IP/tree/master/predavanja/primeri-php){:target="_blank"}**
 
 ---
 
