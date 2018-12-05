@@ -22,13 +22,13 @@
 
 * [Предавања](../predavanja/info)
 
-* [Вежбе](../vezbe/info)
+* [Вјежбе](../vezbe/info)
 
-* [[Колоквијуми]](../kolokvijumi/info)
+* [Колоквијуми](../kolokvijumi/info)
 
 * [Писмени испити](../pismeni-ispiti/info)
 
-* [[Уисмени испити]](../usmeni-ispiti/info)
+* [Усмени испити](../usmeni-ispiti/info)
 
 ## Аутори веб страна курса
 
