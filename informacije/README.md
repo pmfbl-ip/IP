@@ -1,6 +1,6 @@
 # Информације о курсу -- Интернет програмирање @ Природно-математички факултет
 
-[ИП](../README.md)
+[[ИП]](../README.md)
 
 ## Наставници и асистенти  
 
@@ -24,11 +24,11 @@
 
 * [Вежбе](../vezbe/info)
 
-* [Колоквијуми](../kolokvijumi/info)
+* [[Колоквијуми]](../kolokvijumi/info)
 
 * [Писмени испити](../pismeni-ispiti/info)
 
-* [Усмени испити](../usmeni-ispiti/info)
+*  [[Уисмени испити]](../usmeni-ispiti/info)
 
 ## Аутори веб страна курса
 
@@ -36,4 +36,4 @@
 
 *[Милан Предојевић](http://www.unibl.org/fis/zaposlen/5960-milan-predojevic){:target="_blank"}*
 
-[ИП](../README.md)
+[[ИП]](../README.md)
