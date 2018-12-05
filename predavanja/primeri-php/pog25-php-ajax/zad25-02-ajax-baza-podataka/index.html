@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<script>
+		function prikaziFilmove(str) {
+    if (str == "") 
+		{
+        document.getElementById("txtSugestija").innerHTML = "";
+        return;
+    } 
+		else 
+		{ 
+        if (window.XMLHttpRequest) 
+				{
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else 
+				{
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("txtSugestija").innerHTML = xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("GET","filmovi.php?q="+str,true);
+        xmlhttp.send();
+    }
+}
+	</script>
+</head>
+
+<body>
+	<h1> Reziseri i filmovi</h1>
+	<form>
+		<select name="users" onchange="prikaziFilmove(this.value)">
+			<option value="">Izaberi rezisera:</option>
+			<option value="5">Oliver Stone</option>
+			<option value="6">Ethan Koen</option>
+			<option value="7">Joel Koen</option>
+			<option value="8">Stanley Kubrick</option>
+		</select>
+	</form>
+	<br>
+	<div id="txtSugestija"><b>Ovde ce se prikazati informacije o filmovima izabranog rezisera...</b></div>
+
+</body>
+
+</html>

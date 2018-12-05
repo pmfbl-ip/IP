@@ -1,0 +1,49 @@
+# nazivi svih mesta i drzava u kojima se nalaze ta mesta
+SELECT m.naziv, d.naziv  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+WHERE 1
+
+# nazivi svih mesta koja po;inju sa 'B' i drzava u kojima se nalaze ta mesta
+SELECT m.naziv, d.naziv  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+WHERE m.naziv like 'B%'
+
+# nazivi svih mesta i drzava u kojima se nalaze ta mesta u Srbiji
+SELECT m.naziv, d.naziv  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+WHERE d.naziv = 'Srbija'
+
+# radnici koji zive u mestima u Republici Srpskoj
+SELECT concat(r.ime, ' ', r.prezime) as naziv, m.naziv, d.naziv  
+FROM radnik r inner join mjesto m on m.` mjesto_id` = r.mjesto_id 
+inner join drzava d on m.drzava_id = d.drzava_id
+WHERE d.naziv = 'Republika Srpska'
+
+#drzave i broj gradova u njima
+SELECT min(d.naziv) as drzava, d.drzava_id, count(m.` mjesto_id`) as `broj gradova`  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+group by d.drzava_id
+
+#drzave i broj gradova u njima gde je gradova manje od 3
+SELECT min(d.naziv) as drzava, d.drzava_id, count(m.` mjesto_id`) as `broj gradova`  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+group by d.drzava_id
+having `broj gradova` < 3
+
+# nazivi svih mesta i drzava u kojima se nalaze ta mesta sortirani po mestima u rastuci poredak
+SELECT m.naziv, d.naziv  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+where 1
+order by m.naziv asc
+
+# nazivi svih mesta i drzava u kojima se nalaze ta mesta sortirani po mestima u opadajuci poredak
+SELECT m.naziv, d.naziv  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+where 1
+order by m.naziv desc
+
+# nazivi svih mesta i drzava u kojima se nalaze ta mesta sortirani po drzavi, pa po mestu
+SELECT m.naziv as mjesto, d.naziv as drzava  
+FROM mjesto m join drzava d  on m.drzava_id = d.drzava_id 
+where 1
+order by d.naziv asc, m.naziv asc

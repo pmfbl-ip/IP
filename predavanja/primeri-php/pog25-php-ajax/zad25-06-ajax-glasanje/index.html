@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<script>
+function odrediGlas(int) {
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("glasanje").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","glasaj.php?glas="+int,true);
+  xmlhttp.send();
+}
+
+	</script>
+</head>
+
+<body>
+
+	<div id="glasanje">
+		<h3>Da li vam se zasad svidjaju AJAX i PHP?</h3>
+		<form>
+			Da:
+			<input type="radio" name="glas" value="0" onclick="odrediGlas(this.value)">
+			<br>Ne:
+			<input type="radio" name="glas" value="1" onclick="odrediGlas(this.value)">
+		</form>
+	</div>
+
+</body>
+
+</html>

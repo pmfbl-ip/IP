@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+function prikaziSugestiju(str) 
+{
+     if (str.length == 0) 
+		 { 
+         document.getElementById("txtPokusaj").innerHTML = "";
+         return;
+     } 
+		 else 
+		 {
+         var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function() 
+				 {
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) 
+						 {
+                 document.getElementById("txtPokusaj").innerHTML = xmlhttp.responseText;
+             }
+         }
+         xmlhttp.open("GET", "trazi-sugestiju.php?q="+str, true);
+         xmlhttp.send();
+     }
+}
+
+  </script>
+</head>
+
+<body>
+
+  <p><b>Ukucaj ime u tekstualno polje:</b></p>
+  <form>
+    Ime:
+    <input type="text" onkeyup="prikaziSugestiju(this.value)">
+  </form>
+  <p>Sugestije: <span id="txtPokusaj"></span></p>
+</body>
+
+</html>
