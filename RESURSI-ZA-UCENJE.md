@@ -1,6 +1,6 @@
 # Ресурси за учење -- Интернет програмирање
 
-[|ИП|](./README.md)
+[ИП](./README.md)
 
 Овде су постављене везе према ресурсима за учење на вебу, који могу помоћи при учењу садржаја који се обрађују на курсу **Интернет програмирање**.
 
@@ -36,4 +36,4 @@
 
 * [SEO Tutorial](http://www.tutorialspoint.com/seo/){:target="_blank"} - TutorialsPoint, [.pdf](/predavanja/literatura/TutorialsPoint SEO.pdf){:target="_blank"}
 
-[|ИП|](./README.md)
+[ИП](./README.md)
