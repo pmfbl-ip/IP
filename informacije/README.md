@@ -1,6 +1,6 @@
 # Информације о курсу -- Интернет програмирање
 
-[[ИП]](../README.md)
+[|ИП|](../README.md)
 
 ## Наставници и асистенти  
 
@@ -36,4 +36,4 @@
 
 *[Милан Предојевић](http://www.unibl.org/fis/zaposlen/5960-milan-predojevic){:target="_blank"}*
 
-[[ИП]](../README.md)
+[|ИП|](../README.md)
