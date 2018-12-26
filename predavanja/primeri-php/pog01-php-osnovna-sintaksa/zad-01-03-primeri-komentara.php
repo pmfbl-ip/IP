@@ -5,9 +5,9 @@
 </head>
 <body>
 <?php
-// Ovo je komentar u jednoj liniji
+$x = 45; // Ovo je komentar u jednoj liniji
 	
-# Ovo je takođe komentar u jednoj liniji
+echo $x; # Ovo je takođe komentar u jednoj liniji
 	 
 /*
 Ovo je blokovski komentar, koji

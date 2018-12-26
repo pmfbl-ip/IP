@@ -1,13 +1,22 @@
 <?php
 
-$t = date("H");
-if ( $t<"20") 
+$sat = intval(date("H"));
+if ( $sat < 7) 
 {
-    echo "Dobar dan!";
+   echo "Dobro vece!";
 }
 else  
 {
-    echo "Dobro vece!";
+    if( $sat < 12)
+        echo "Dobro jutro!";
+    else
+    {
+        if( $sat < 17 )
+            echo "Dobar dan!";
+        else
+            echo "Dobro vece!";
+    }
+    
 }
 
 ?>

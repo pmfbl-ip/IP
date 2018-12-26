@@ -1,6 +1,6 @@
 <?php
 
-$auta = array("Volvo", "BMW", "Tojota", "Fiat", "Mercedes");
+$auta = array("Zastava", "Volvo", "BMW", "Tojota", "Fiat", "Mercedes");
 echo "Pre sortiranja: ";
 print_r($auta);
 echo "<br/>";

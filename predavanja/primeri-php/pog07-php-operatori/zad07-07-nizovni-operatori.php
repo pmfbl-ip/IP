@@ -4,6 +4,7 @@ $x = array("a" => "red", "b" => "green");
 echo "\$x: ";
 print_r($x); 
 echo "<br/>";
+var_dump( $x );
 var_dump( $x["a"]);
 var_dump( $x["b"]);
 echo "<br/><br/>";

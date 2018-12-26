@@ -1,15 +1,15 @@
 <?php
 
-$t = date("H");
-if ($t < "12") 
+$sat = intval(date("H"));
+if ($sat < 12) 
 {
     echo "Dobro jutro!";
 }
-if ($t >= "12" && $t<"20") 
+if ($sat >= 12 && $sat<16) 
 {
     echo "Dobar dan!";
 }
-if ($t >= "20") 
+if ($sat >= 16) 
 {
     echo "Dobro vece!";
 }
