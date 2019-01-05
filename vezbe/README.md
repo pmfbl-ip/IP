@@ -8,4 +8,6 @@
 
 **[Информације](info/README.md)**
 
+**[Литература](https://drive.google.com/open?id=0B2lUqfsGGE3IOVBWa014enh2c3c)**
+
 [ИП](../README.md)
