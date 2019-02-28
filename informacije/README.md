@@ -10,7 +10,7 @@
 
 ## План и програм курса
 
-* **[Званичан план и програм курса](Nastavni program Internet programiranje.pdf){:target="_blank"}**
+* **[Званичан план и програм курса](Nastavni program Internet programiranje 2016.pdf){:target="_blank"}**
 
 ## Термини за консултације у академској 2018/19 години
 
