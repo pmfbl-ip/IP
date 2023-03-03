@@ -63,8 +63,8 @@ public class WebBrowser
 		{
 			System.out.println("Unesite veb adresu:");
 			Scanner sc = new Scanner(System.in);
-		  url = sc.next();
-		  sc.close();
+		  	url = sc.next();
+		  	sc.close();
 		}
 		System.out.println("\n Sadzaj veb strane:");		
 		browse( url );

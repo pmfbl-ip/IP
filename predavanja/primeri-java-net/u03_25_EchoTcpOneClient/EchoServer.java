@@ -22,7 +22,7 @@ public class EchoServer
 	
 	public static void main(String[] args) throws IOException
 	{
-		final int port = 6019;
+		final int port = 1081;
 		ServerSocket serverSocket = null;
 		try
 		{

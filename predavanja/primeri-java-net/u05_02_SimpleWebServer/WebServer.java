@@ -12,8 +12,8 @@ class WebServer
 		String fileName;
 
 		// check if a port number is given as the first command line argument
-		// if not argument is given, use port number 6789
-		int myPort = 6022;
+		// if not argument is given, use port number 1081
+		int myPort = 1081;
 		if (args.length > 0)
 		{
 			try
