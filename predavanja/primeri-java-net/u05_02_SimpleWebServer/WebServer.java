@@ -13,7 +13,7 @@ class WebServer
 
 		// check if a port number is given as the first command line argument
 		// if not argument is given, use port number 1081
-		int myPort = 1081;
+		int myPort = 80;
 		if (args.length > 0)
 		{
 			try

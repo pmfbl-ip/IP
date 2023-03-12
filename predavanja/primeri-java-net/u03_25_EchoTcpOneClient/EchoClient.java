@@ -9,7 +9,7 @@ public class EchoClient
 	{
 
 		String serverHostname = new String("127.0.0.1");
-    	int port = 1081;
+    	int port = 80;
 		if (args.length > 1)
 		{
 			serverHostname = args[0];
